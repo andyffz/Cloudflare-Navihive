@@ -6,7 +6,7 @@
     "$schema": "node_modules/wrangler/config-schema.json",
     "name": "navihive",
     "main": "worker/index.ts",
-    "compatibility_date": "2025-04-05",
+    "compatibility_date": "2026-03-01",
     "compatibility_flags": ["nodejs_compat"],  // 必须启用 Node.js 兼容
     "assets": {
         "not_found_handling": "single-page-application"
@@ -19,7 +19,7 @@
         {
             "binding": "DB",
             "database_name": "navigation-db",
-            "database_id": "f9ff228d-61ff-4cb8-a820-62095c1a1dbc"
+            "database_id": "2bd0cc16-3a2c-4a73-8c25-2e00188de8c1"
         }
     ],
     "vars": {
@@ -29,6 +29,7 @@
         "AUTH_SECRET": "S9VrKsVf6yjgGUn2/"
     }
 }
+
 
 
 
